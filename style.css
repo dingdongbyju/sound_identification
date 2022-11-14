@@ -1,0 +1,12 @@
+body {
+    font-family:'Trebuchet MS';
+}
+
+.heading {
+    background: rgb(255, 193, 36);
+    color: white;
+    margin: 10px;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    height:75px;
+}

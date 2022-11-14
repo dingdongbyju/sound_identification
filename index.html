@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <div class="heading">
+            <h1>Animal Identification</h1>
+            <p>Press the start button when you hear a sound</p>
+        </div>
+        <div class="main">
+            <button id="start" onclick="startClassification();">Start</button>
+            <br>
+            <h4>The sound was:<h4 id="result_label"></h4></h4>
+            <h4>Accuracy:<h4 id="result_confidence"></h4></h4>
+            <img id="result_image" src="icons8-listening-skin-type-4-96.png" width="250">
+            </div>
+            <div class="copy_right_footer">
+                <p>Developed by the Self Confidence Team</p>
+                </div>
+        </center>
+    </body>
+</html>
